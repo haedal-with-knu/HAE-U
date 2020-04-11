@@ -31,7 +31,7 @@
  * 팀원 : 윤치호, 장우진(캐릭터 디자인)
  * 게임 실행 영상(https://www.youtube.com/watch?v=NZiZURiTpno)
  * 게임 다운로드 링크(https://play.google.com/store/apps/details?id=com.CHHO.UPSIDEDOWN)
- * 관련사진
+ * 관련사진.
  
  ![로고](ud2.PNG)![로고](ud3.PNG)
  
