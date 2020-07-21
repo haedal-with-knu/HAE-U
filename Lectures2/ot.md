@@ -1,3 +1,5 @@
+[목록으로 돌아가기](L1.md)
+  
 # OT
 
 ## 수업내용
@@ -132,3 +134,6 @@ E : 오브젝트 회전
 R : X, Y축으로 크기 조정
 
 ![https://user-images.githubusercontent.com/48755297/87397857-f797d580-c5ef-11ea-9cf7-574ead74c664.png](https://user-images.githubusercontent.com/48755297/87397857-f797d580-c5ef-11ea-9cf7-574ead74c664.png)
+
+[목록으로 돌아가기](L1.md)
+  
