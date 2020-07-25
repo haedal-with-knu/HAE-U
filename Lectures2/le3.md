@@ -79,6 +79,7 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerDownHandl
     void Start()
     {
         center = this.transform.position;
+        // JoystickBackground의 반지름입니다.
         background_radius = background.GetComponent<RectTransform>().rect.width / 2;
     }
 
@@ -90,13 +91,14 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerDownHandl
     public void OnDrag(PointerEventData eventData)
     {
         Vector3 fingerPos = Input.mousePosition;
-
+        // 중심과의 거리를 이용하여 이동합니다.
         Axis = (fingerPos - center).normalized;
 
         float fDistance = Vector3.Distance(fingerPos, center);
+        // 최대 이동가능한 범위를 정해둡니다.
         if (fDistance > background_radius) joystick.transform.position = center + Axis * background_radius;
         else joystick.transform.position = center + Axis * fDistance;
-
+        
         PlayerMovement.horizontal = Axis.x;
     }
 
@@ -104,7 +106,7 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerDownHandl
     {
         joystick.transform.position = Input.mousePosition;
         Vector3 fingerPos = Input.mousePosition;
-
+        
         Axis = (fingerPos - center).normalized;
 
         PlayerMovement.horizontal = Axis.x;
@@ -112,6 +114,7 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerDownHandl
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        // 원래 위치로 되돌립니다.
         joystick.transform.position = center;
         Axis = Vector3.zero;
         PlayerMovement.horizontal = 0;
