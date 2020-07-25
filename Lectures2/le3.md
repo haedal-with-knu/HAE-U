@@ -46,7 +46,8 @@
 
 ![3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%202.png](3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%202.png)
 
-Canvas안에 background를 만들어주고 그 자녀로 joystic오브젝트를 생성해줍니다.
+Canvas안에 UI > Image로 background 이름의 이미지를 만들어줍니다.  
+같은방법으로 background자녀 오브젝트로 joystick 이름의 이미지를 만들어줍니다.  
 
 ![3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%203.png](3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%203.png)
 
