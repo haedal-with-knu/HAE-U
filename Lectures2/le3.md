@@ -47,6 +47,7 @@
 
 Canvas안에 UI > Image로 background 이름의 이미지를 만들어줍니다.  
 같은방법으로 background자녀 오브젝트로 joystick 이름의 이미지를 만들어줍니다.  
+각각의 Source Image에 앞서 받아둔 grey_circle을 적용해준 후 적당한 곳에 배치해줍니다.    
 
 ![3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%203.png](3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%203.png)
 
