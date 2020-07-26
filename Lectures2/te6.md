@@ -77,7 +77,7 @@
 
  이후 Source를 Stage2의 Source들로 변경해줍니다. 
 
- 단, Assets>Prefabs의 Tile과 "Canvas/Panel"은 Stage와 Stage2 모두 같은 것을 연결해줍니다.
+ 단, "Assets / Prefabs"의 Tile과 "Canvas/Panel"은 Stage와 Stage2 모두 같은 것을 연결해줍니다.
 
 ![6%20a9208a54bb7649559f2fcafbc940f0e5/Untitled%207.png](6%20a9208a54bb7649559f2fcafbc940f0e5/Untitled%207.png)
 
