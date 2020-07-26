@@ -125,9 +125,9 @@ public class Stage : MonoBehaviour
     private int levelVal = 1;
     private int lineVal;
 
-		private void Start()
+    private void Start()
     {
-				// 게임 시작시 text 설정
+	// 게임 시작시 text 설정
         lineVal = levelVal * 2;   // 임시 레벨 디자인
         score.text = "" + scoreVal;
         level.text = "" + levelVal;
@@ -154,7 +154,7 @@ public class Stage : MonoBehaviour
     {
         bool isCleared = false;
 
-				//한번에 사라진 행 개수 확인용
+	//한번에 사라진 행 개수 확인용
         int linecount = 0;
 
         // 완성된 행 == 행의 자식 갯수가 가로 크기
@@ -196,7 +196,7 @@ public class Stage : MonoBehaviour
  위에서 점수증가 코드에 이어서 **CheckBoardColumn 메서드**를 수정해보겠습니다.
 
 ```csharp
-// 보드에 완성된 행이 있으면 삭제
+    // 보드에 완성된 행이 있으면 삭제
     void CheckBoardColumn()
     {
 
@@ -256,7 +256,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Stage : MonoBehaviour
 {
-		//필요 소스 불러오기
+    //필요 소스 불러오기
     [Header("Source")]
     public GameObject tilePrefab;
     public Transform backgroundNode;
@@ -306,7 +306,7 @@ public class Stage : MonoBehaviour
  예시 코드에선 테트로미노 미리 보기 위치를 halfWidth+5, halfHeight-1 로 두었지만 원하는 위치로 바꾸어도 괜찮습니다.
 
 ```csharp
-// 테트로미노 미리보기
+    // 테트로미노 미리보기
     void CreatePreview()
     {
         // 이미 있는 미리보기 삭제하기
@@ -320,7 +320,7 @@ public class Stage : MonoBehaviour
 
         Color32 color = Color.white;
 
-				// 미리보기 테트로미노 생성 위치 (우측 상단)
+	// 미리보기 테트로미노 생성 위치 (우측 상단)
         previewNode.position = new Vector2(halfWidth + 5, halfHeight - 1);    
 
         switch (indexVal)
@@ -401,7 +401,7 @@ public class Stage : MonoBehaviour
  마지막으로 `CreatePreview()`를 **CreateTetromino 메서드** 마지막줄에 추가해줍니다. 미리 보기 기능을 테트로미노가 생성됨가 동시에 갱신되어야하므로 **CreateTetromino 메서드** 뒤에 추가하여 동시에 실행될 수 있게 하였습니다.
 
 ```csharp
-// 테트로미노 생성
+    // 테트로미노 생성
     void CreateTetromino()
     {
         //제일 처음에 나오는 테트로미노인경우
@@ -426,5 +426,7 @@ public class Stage : MonoBehaviour
 
 ## 현재까지 작업결과입니다.
 
-[테트리스만들기5](https://drive.google.com/file/d/1mkduaSj8OFT4gOPX7P0STiYjuPqxam5a/view?usp=sharing)
+[테트리스만들기5](https://drive.google.com/file/d/1mkduaSj8OFT4gOPX7P0STiYjuPqxam5a/view?usp=sharing)  
+  
 [목록으로 돌아가기](L1.md)
+
