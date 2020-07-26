@@ -93,7 +93,8 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-	private void Awake()
+    SpriteRenderer spriteRenderer;
+    private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -102,7 +103,6 @@ public class Tile : MonoBehaviour
             Debug.LogError("You need to SpriteRenderer for Block");
         }
     }
-    SpriteRenderer spriteRenderer;
 
     public Color color
     {
