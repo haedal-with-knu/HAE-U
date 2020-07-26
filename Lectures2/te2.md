@@ -360,7 +360,7 @@ public class Stage : MonoBehaviour
         // 아래로 떨어지는 경우는 강제로 이동시킵니다.
         if (Time.time > nextFallTime)
         {
-						nextFallTime = Time.time + fallCycle;   // 다음 떨어질 시간 재설정
+	    nextFallTime = Time.time + fallCycle;   // 다음 떨어질 시간 재설정
             moveDir.y = -1; //  아래로 한 칸 이동
             isRotate = false;   // 강제로 이동시 회전 없음
         }
@@ -388,6 +388,6 @@ public class Stage : MonoBehaviour
 
 ## 현재까지 작업결과입니다.
 
-[테트리스 만들기 2](https://drive.google.com/file/d/1TgfFrbnFZbJtRRrw29tNTssnREvU9mVu/view?usp=sharing)
+[테트리스 만들기 2](https://drive.google.com/file/d/1TgfFrbnFZbJtRRrw29tNTssnREvU9mVu/view?usp=sharing)    
 [목록으로 돌아가기](L1.md)
  
