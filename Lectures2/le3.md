@@ -134,6 +134,14 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerDownHandl
  마지막으로 "Canvas / background" 와 "Canvas / joystick"을 JoystickController과 연결해줍니다.
 
 ![3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%205.png](3%20e62ff36d3fea40409678d2a0ce50e897/Untitled%205.png)
+## 안드로이드 빌드하기
+
+### 빌드 스위칭
+
+    현재 유니티에서 빌드 설정값은 기본값인 윈도우로 되어 있습니다. 스마트폰에서 동작가능한 apk파일로 만들어 주기 위해, 우선 빌드부터 스위칭해주는 작업이 필요합니다.
+    유니티 화면에서 단축기 Ctrl+Shift+B를 눌러 Build Setting에 들어가 줍니다.
+    우선 Scenes in Build에서 Add Open Secenes를 통해 게임에 출력될 화면을 추가해 줍니다.
+
 
 # 기타 활용방안 생각해보기
 
