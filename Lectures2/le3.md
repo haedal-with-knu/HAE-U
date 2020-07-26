@@ -141,6 +141,57 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerDownHandl
 유니티 화면에서 단축기 Ctrl+Shift+B를 눌러 Build Setting에 들어가 줍니다.
 우선 Scenes in Build에서 Add Open Secenes를 통해 게임에 출력될 화면을 추가해 줍니다.
 
+그런 다음, 왼쪽 Platform창에서 Android를 클릭한 뒤, Switch Platform을 해줍니다.
+시간이 많이 소요될 수 있습니다.
+
+### NVIDIA CodeWork 다운
+유니티에서 안드로이드 빌드를 하기 위해선 JDK(자바 개발 키트), Android SDK(소프트웨어 개발 키트), Android NDK(Native 개발 키트)가 필요합니다.
+그래서 이 3개의 소프트웨어를 다운받기 위해 NVIDIA에서 제작한 CodeWork를 다운받아야 합니다.
+우선 https://developer.nvidia.com/codeworks-android에 들어가줍니다.
+
+Download를 눌러 NVIDA CodeWork for Android를 다운 받아줍니다. 이때 NVIDA에 회원가입을 해야 다운을 받을 수 있습니다.
+
+Automatically resolve dependency conflicts를 체크한 뒤, 다운로드를 시작해 줍니다.
+완료 후에는, 컴퓨터를 재부팅시켜줍니다.
+
+### JDK, SDK, NDK Path 설정하기
+설치가 완료됬으면, 유니티의 Edit-Preference-External Tools에서 JDK, SDK, NDK 각각의 Path를 설정해 줍니다.
+CodeWorks 설치 위치가 기본값 기준으로 C:\NVPACK에 있습니다.
+
+그림과 같이 JDK, SDK, NDK의 Path를 해당 파일이 존재하는 위치로 지정해둡니다.
+
+[주의!]이때 만약 NDK의 경우 버전이 맞지 않는다는 오류가 뜰 경우, NDK만 따로 r19버젼을 새로 다운받아 해당 NVPACK 위치에 압축을 풀어준뒤, Path를 바꿔줍니다. 
+NDK r19버젼 다운 위치
+: https://moongtaeng.net/wp/2019/12/03/3611/
+
+### 
+
+그 뒤, 다시 Build Settings창으로 돌아와서 좌측 하단의 Player Settings로 들어갑니다.
+
+이 곳에서는 스마트폰에서 돌아갈 어플리케이션의 여러 외적인 설정을 만질 수 있습니다.
+Product Name : 게임의 이름
+Version : 버전
+Default icon : 어플리케이션 기본 아이콘 그림
+
+저희는 여기서 기본적으로 필요한 화면 전환부분에 대해서만 수정해줄 예정입니다. 
+
+게임이 스마트폰에서 원활하게 돌아가는 지 확인하기위해 화면을 세로에서 가로화면으로 바꿔줄 예정입니다.
+Resoulution and Presentation에서 Orientation항목의 Default Orientation에서 Landscape Right/Left로 바꿔줍니다. 
+이 값을 변경하지 않고 게임을 빌드 후 스마트폰에서 실행하면, 화면이 세로로 출력되어 플레이어의 위치를 파악하기가 힘듭니다.
+
+모든 설정이 끝났으면 다시 Build Setting으로 돌아와 Build를 누르고, .apk파일 저장 위치를 정해준 뒤 기다립니다.
+
+[주의!] 이때 빌드 오류가 나는 경우가 있어 주의해야 할 부분이 있는데, 
+1. 코드 자체에 오류가 있거나, 
+2. 혹은 유니티 프로젝트가 한글로 된 경로에 있을 때 주로 오류가 납니다. 
+이 부분에 유의해서 빌드를 해주신 뒤, 빌드가 끝나면 스마트폰에 넣어 직접 설치를 해봅니다. 
+
+### 정상 작동 확인
+정상적으로 작동함을 알 수 있습니다.
+아직 점프 버튼을 넣지 않아 점프기능이 안되므로 이제부터 점프기능을 버튼으로 추가해 보도록 하겠습니다.
+
+또한 나중에, 조이스틱의 크기나 위치를 변경해서 조작하기 쉽게 변경을 해보거나, 다른 오브젝트(장애물, 발판)등을 추가해서 자신만의 게임을 만들어 볼 수 있습니다
+
 
 # 기타 활용방안 생각해보기
 
