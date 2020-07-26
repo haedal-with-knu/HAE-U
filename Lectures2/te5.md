@@ -170,7 +170,7 @@ public class Stage : MonoBehaviour
                 // 행의 모든 자식들과의 연결 끊기
                 column.DetachChildren();
                 isCleared = true;
-	              linecount++; // 완성된 행 하나당 linecount 증가
+	        linecount++; // 완성된 행 하나당 linecount 증가
             }
         }
         // 완성된 행이 있을경우 점수증가
