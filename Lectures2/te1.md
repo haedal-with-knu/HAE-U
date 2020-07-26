@@ -40,7 +40,7 @@
 
 [Tile.png](https://drive.google.com/file/d/1CgecNHTuf6lFoEkdPCUQHYUrsmzAaPLS/view?usp=sharing)
 
- 사용할 리소스 불러오기 Assets > Images에 (Tile.png) 드래그 앤 드롭합니다. 유니티에선 드래그 앤드 드롭으로 손쉽게 파일을 불러오고 내 볼 낼 수 있습니다.
+ 사용할 리소스 불러오기 Assets > Images에 (Tile.png) 드래그 앤 드롭합니다. 유니티에선 드래그앤드롭으로 손쉽게 파일을 불러오고 내보낼 수 있습니다.
 
 ![1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled%201.png](1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled%201.png)
 
