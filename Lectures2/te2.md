@@ -344,7 +344,7 @@ public class Stage : MonoBehaviour
 
     private void Start()
     {
-				halfWidth = Mathf.RoundToInt(boardWidth * 0.5f);
+	halfWidth = Mathf.RoundToInt(boardWidth * 0.5f);
         halfHeight = Mathf.RoundToInt(boardHeight * 0.5f);
 
         nextFallTime = Time.time + fallCycle;   // 다음에 테트로미노가 떨어질 시간 설정
@@ -389,5 +389,6 @@ public class Stage : MonoBehaviour
 ## 현재까지 작업결과입니다.
 
 [테트리스 만들기 2](https://drive.google.com/file/d/1TgfFrbnFZbJtRRrw29tNTssnREvU9mVu/view?usp=sharing)    
+  
 [목록으로 돌아가기](L1.md)
  
