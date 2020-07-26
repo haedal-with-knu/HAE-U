@@ -175,6 +175,8 @@ CodeWorks 설치 위치가 기본값 기준으로 C:\NVPACK에 있습니다.
 [주의!]이때 만약 NDK의 경우 버전이 맞지 않는다는 오류가 뜰 경우, NDK만 따로 r19버젼을 새로 다운받아 해당 NVPACK 위치에 압축을 풀어준뒤, Path를 바꿔줍니다. 
 NDK r19버젼 다운 위치
 : https://moongtaeng.net/wp/2019/12/03/3611/
+(출처 : https://moongtaeng.net/wp/)
+![picture/094.png](picture/094.png)
 
 ### 빌드하기
 
