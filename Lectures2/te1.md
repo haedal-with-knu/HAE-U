@@ -40,7 +40,7 @@
 
 Assets창>오른쪽 마우스클릭>Create-Folder 
 
-Images, Scenes, Scripts 폴더를 생성해줍니다.
+Images, Scenes, Scripts, Prefabs 폴더를 생성해줍니다.
 
 폴더를 사용하면 리소스를 분할하여 관리하기 편합니다.
 
