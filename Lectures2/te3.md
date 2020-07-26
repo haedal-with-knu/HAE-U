@@ -144,7 +144,7 @@ private void Start()
         // 높이만큼 행 노드 만들어주기
         for (int i = 0; i < boardHeight; ++i)
         {
-						// ToString을 이용하여 오브젝트 이름 설정
+	    // ToString을 이용하여 오브젝트 이름 설정
             var col = new GameObject((boardHeight - i - 1).ToString());
             // 위치설정 -> 행 위치의 높이, 가로 중앙
             col.transform.position = new Vector3(0, halfHeight - i, 0);
@@ -169,7 +169,7 @@ bool MoveTetromino(Vector3 moveDir, bool isRotate)
     {
         ...
 
-				// 이동 불가시 이전 위치, 회전 으로 돌아가기
+	// 이동 불가시 이전 위치, 회전 으로 돌아가기
         if (!CanMoveTo(tetrominoNode))
         {
             tetrominoNode.transform.position = oldPos;
@@ -207,7 +207,7 @@ bool MoveTetromino(Vector3 moveDir, bool isRotate)
  위의 코드에 이어서 **AddToBoard 메서드**를 작성해보겠습니다. 테트로미노가 바닥에 닿을시 테트로미노의 자녀 오브젝트들의 부모 노드를 Board 노드로 바꾸어 오브젝트들이 이동할 수 있게 하였습니다. 또한 자녀 오브젝트들의 이름을 유니티 좌표계 기준 x 위치로 만들어 나중에 관리하기 쉽게 만들었습니다.
 
 ```csharp
-		// 테트로미노를 보드에 추가
+    // 테트로미노를 보드에 추가
     void AddToBoard(Transform root) //tetrominoNode를 매개변수 root로 가져오기
     {
         while (root.childCount > 0)
@@ -297,7 +297,7 @@ void Update()   // 매 프레임마다 실행
         if (Input.GetKeyDown("r"))
         {
             // SceneManager을 이용하여 게임 재시작하기
-						// 가장 위에 using UnityEngine.SceneManagement; 추가 필요
+	    // 가장 위에 using UnityEngine.SceneManagement; 추가 필요
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
@@ -315,5 +315,6 @@ void Update()   // 매 프레임마다 실행
 
 ## 현재까지 작업결과입니다.
 
-[테트리스 만들기 3](https://drive.google.com/file/d/1nydTaSlYDQQcqPIIHp5KuxDGy5gFWerI/view?usp=sharing)
+[테트리스 만들기 3](https://drive.google.com/file/d/1nydTaSlYDQQcqPIIHp5KuxDGy5gFWerI/view?usp=sharing)  
+  
 [목록으로 돌아가기](L1.md)
