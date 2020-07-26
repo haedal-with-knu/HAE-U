@@ -170,7 +170,7 @@ public class Stage : MonoBehaviour
 게임 시작시 Panel이 꺼져있어야 하므로 Start메서드에 코드를 추가해줍니다.
 
 ```csharp
-private void Start()
+    private void Start()
     {
         // 게임 시작시 게임오버 패널 off
         gameoverPanel.SetActive(false);
@@ -183,7 +183,7 @@ private void Start()
 이후 **MoveTetromino 메서드**에 테트로미노 추가 직후 이동 가능 여부 확인 코드를 추가해줍니다. 이전 위치, 회전으로 돌아가도 여전히 움직일 수 없는 상태일 경우 게임 오버 상태로 판단할 예정입니다.
 
 ```csharp
-		bool MoveTetromino(Vector3 moveDir, bool isRotate)
+    bool MoveTetromino(Vector3 moveDir, bool isRotate)
     {
      ...
         // 이동 불가시 이전 위치, 회전 으로 돌아가기
@@ -239,5 +239,6 @@ void Update()   // 매 프레임마다 실행
 
 ## 현재까지 작업결과입니다.
 
-[테트리스 만들기 4](https://drive.google.com/file/d/1WviA56Oy57ZTeFowXR9KhKvLTOqgmRtS/view?usp=sharing)
+[테트리스 만들기 4](https://drive.google.com/file/d/1WviA56Oy57ZTeFowXR9KhKvLTOqgmRtS/view?usp=sharing)  
+  
 [목록으로 돌아가기](L1.md)
