@@ -34,7 +34,17 @@
 
 버젼 : 19.4.2f
 
-![1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled.png](1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled.png)
+![1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled.png](1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled.png)  
+  
+## 폴더 생성하기  
+
+Assets창>오른쪽 마우스클릭>Create-Folder 
+
+Images, Scenes, Scripts 폴더를 생성해줍니다.
+
+폴더를 사용하면 리소스를 분할하여 관리하기 편합니다.
+
+![1%20598b2c3599eb40d7a8ec71da15890ac5/1.png](1%20598b2c3599eb40d7a8ec71da15890ac5/1.png)  
 
 ## **필요 리소스 다운하기**
 
@@ -62,15 +72,7 @@
 
 ![1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled%203.png](1%20598b2c3599eb40d7a8ec71da15890ac5/Untitled%203.png)
 
-## 폴더 생성하기
 
-Assets창>오른쪽 마우스클릭>Create-Folder 
-
-Images, Scenes, Scripts 폴더를 생성해줍니다.
-
- → 추후, 작업할때 리소스를 분할해서 관리하기 위함입니다.
-
-![1%20598b2c3599eb40d7a8ec71da15890ac5/1.png](1%20598b2c3599eb40d7a8ec71da15890ac5/1.png)
 
 ## **타일 오브젝트 만들기**
 
