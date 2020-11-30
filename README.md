@@ -4,7 +4,9 @@
 
 ## [유니티(고급) - 윤치호,장우진](Lectures2/L1.md)
 
-## [유니티 - 권현수, 민시온](https://github.com/KwonHyeonSu/2020_Winter_Hae_U/blob/main/README.md)
+> SW 소프트웨어 고등학교 2020 겨울
+> 
+> ## [유니티 - 권현수, 민시온](https://github.com/KwonHyeonSu/2020_Winter_Hae_U/blob/main/README.md)
 
 
 # HAE-U
