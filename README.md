@@ -1,10 +1,10 @@
-# 소프트웨어 고등학교 강의자료
+> # SW 소프트웨어 고등학교 2020 여름
+> 
+> ## [유니티 - 권현수, 김진수](Lectures/L1.md)
+>
+> ## [유니티(고급) - 윤치호,장우진](Lectures2/L1.md)
 
-## [유니티 - 권현수, 김진수](Lectures/L1.md)
-
-## [유니티(고급) - 윤치호,장우진](Lectures2/L1.md)
-
-> ## SW 소프트웨어 고등학교 2020 겨울
+> # SW 소프트웨어 고등학교 2020 겨울
 > 
 > ## [유니티 - 권현수, 민시온](https://github.com/KwonHyeonSu/2020_Winter_Hae_U/blob/main/README.md)
 > ## [유니티 고급 - 윤치호, 김진수](Lectures3/files.md)
@@ -47,4 +47,10 @@
  
  ![로고](Readme/ud2.PNG)![로고](Readme/ud3.PNG)
  
+ ## 유니티 교육 2020_11_11
+ <img src = "https://user-images.githubusercontent.com/48755297/102976195-8bc57b80-4544-11eb-8e88-92aebac90b23.jpg" width = 400px>
  
+ 
+ ## 유니티 교육 2020_12_22
+  <img src = "https://user-images.githubusercontent.com/48755297/102976198-8cf6a880-4544-11eb-81bb-2b6ddf903d04.jpg" width = 400px>
+
