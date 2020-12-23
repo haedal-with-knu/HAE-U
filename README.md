@@ -51,6 +51,6 @@
  <img src = "https://user-images.githubusercontent.com/48755297/102976195-8bc57b80-4544-11eb-8e88-92aebac90b23.jpg" width = 400px>
  
  
- ## 유니티 교육 2020_12_22
+ ## 유니티 교육 후 종강파티 2020_12_22
   <img src = "https://user-images.githubusercontent.com/48755297/102976198-8cf6a880-4544-11eb-81bb-2b6ddf903d04.jpg" width = 400px>
 
