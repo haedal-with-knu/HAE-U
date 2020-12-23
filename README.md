@@ -35,7 +35,18 @@
  
  ![로고](Readme/rc1.PNG)![로고](Readme/rc2.PNG)
  
+ # 활동내용[화재 대피 시뮬레이션 수행]
+ * 프로젝트 설명 : 화재대피알고리즘을 유니티 엔진을 통해 3D Simulation 수행   
+ **경북대학교 코드페어(20.11.27) 최우수상 수상**   
+ * 팀원 : 권현수 (유니티 3D시뮬레이션 담당), 박재성 (팀장), 김도균, 백지원 (알고리즘), 노유진 윤동준 이진우 (하드웨어 시제품 제작)
+ * 게임 실행 영상(https://www.youtube.com/watch?v=bdH7bbdno4A)
+ * 관련사진
  
+<img width="500" alt="unity_simul" src="https://user-images.githubusercontent.com/48755297/102977328-2ffbf200-4546-11eb-932d-44bf13a68bbc.png">
+ 
+<img width="500" alt="unity_simul2" src="https://user-images.githubusercontent.com/48755297/102977409-4904a300-4546-11eb-9205-13f68416f7d3.png">
+
+
 # 활동내용[업사이드다운]
 
 ![로고](Readme/ud1.png)
