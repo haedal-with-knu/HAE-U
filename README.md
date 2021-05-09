@@ -9,6 +9,12 @@
 > ## [유니티 - 권현수, 민시온](https://github.com/KwonHyeonSu/2020_Winter_Hae_U/blob/main/README.md)
 > ## [유니티 고급 - 윤치호, 김진수](Lectures3/files.md)
 
+># 2021 해유 교육 내역
+>
+>##[신입생 유니티 스터디](2021_HU/L1.md)
+
+   
+
 
 # HAE-U
 해달 + 유니티
